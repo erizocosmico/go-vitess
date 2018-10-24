@@ -24,9 +24,9 @@ import (
 	"strings"
 	"sync"
 
-	"vitess.io/vitess/go/bucketpool"
-	"vitess.io/vitess/go/sync2"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	"gopkg.in/src-d/go-vitess.v1/bucketpool"
+	"gopkg.in/src-d/go-vitess.v1/sync2"
+	querypb "gopkg.in/src-d/go-vitess.v1/vt/proto/query"
 )
 
 const (
